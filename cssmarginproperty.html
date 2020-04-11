@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 1px solid red;
+  margin-left: 100px;
+}
+p.ex2 {
+  border: 1px solid black;
+  margin: 25px 50px 75px 100px;
+  background-color: lightblue;
+}
+
+p.ex1 {
+  margin-left: inherit;
+}
+</style>
+</head>
+<body>
+
+<h2>Use of the inherit value</h2>
+<p>Let the left margin be inherited from the parent element:</p>
+<p class="ex2">This div element has a top margin of 25px,
+ a right margin of 50px, a bottom margin of 75px, and a left margin of 100px.</p>
+
+<div>
+<p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+</div>
+
+</body>
+</html>

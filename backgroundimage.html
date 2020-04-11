@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head> <style>
+        body{
+           background-image: url('example_img_girl.jpg');
+        }
+    </style>
+    </head>
+    <body>
+
+<div style="background-image: url('img_girl.jpg');"></div>
+ <!--background repeat, to avoid the image from repeating itself --> 
+  <style>
+      body {
+          background-image: url('example_img_girl.jpg');
+          background-repeat: no-repeat;
+      }
+  </style>
+  <!--image covers entire element-->
+  <style>
+      body{
+          background-image: url('img_girl.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+      }
+  </style>
+
+  <!--background stretch-->
+  <style>
+      body{
+          background-image: url('img_girl.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+      }
+  </style>
+
+    </body>
+</html>
